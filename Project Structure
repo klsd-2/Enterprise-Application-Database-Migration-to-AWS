@@ -1,0 +1,22 @@
+enterprise-aws-migration/
+│
+├── app/
+│   ├── main.py
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│
+├── migration/
+│   ├── dms-config.json
+│   └── migration-guide.md
+│
+├── .github/workflows/
+│   └── deploy.yml
+│
+├── docker-compose.yml
+├── README.md
+└── .gitignore
