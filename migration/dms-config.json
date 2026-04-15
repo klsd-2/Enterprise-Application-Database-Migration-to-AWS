@@ -1,0 +1,15 @@
+{
+  "SourceEndpoint": {
+    "EngineName": "postgres",
+    "ServerName": "on-prem-db",
+    "Username": "admin",
+    "Password": "password"
+  },
+  "TargetEndpoint": {
+    "EngineName": "postgres",
+    "ServerName": "aws-rds-endpoint",
+    "Username": "admin",
+    "Password": "password"
+  },
+  "MigrationType": "full-load-and-cdc"
+}
