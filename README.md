@@ -14,13 +14,11 @@ This project demonstrates migrating an enterprise application from on-premise in
 
 ##  Setup Instructions
 
-### 1. Clone Repo
-git clone https://github.com/yourusername/enterprise-aws-migration.git
 
-### 2. Run Locally
+### 1. Run Locally
 docker-compose up --build
 
-### 3. Deploy Infra
+### 2. Deploy Infra
 cd terraform
 terraform init
 terraform apply
